@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio_KhushiSharma</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main class="main">
+        <nav class="navBar">
+            <h1 class="heading">PORTFOLIO</h1>
+            <div class="navigationMenu">
+                <a href="#aboutMe">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contactform">Let's Connect!</a>
+            </div>
+        </nav>
+        <section class="heroSection">
+            <img class="profileImage" src="images/logo.jpeg">
+            <div class="herosectionDetails">
+                <h1>KHUSHI SHARMA</h1>
+                <h2>(Majoring in Information Technology)</h2>
+            </div>
+            <a href="https://github.com/khushisharma5?tab=repositories"><img class="socials" src="images/github.jpg"
+                    alt="logo"></a>
+            <a href="https://www.linkedin.com/in/khushi-sharma-64a22a211"><img class="socials" src="images/linkedin.jpg"
+                    alt="logo"></a>
+        </section>
+        <section class="aboutMe" id="aboutMe">
+            <h1>About</h1><br><br>
+            <p>A 3rd year B.Tech student majoring in Information Technology at Inderprastha Engineering
+                College. Dr. APJ Abdul Kalam Technical University. Having good problem solving , critical
+                thinking , programming and communication skills. Aiming to learn more about information
+                Technology and have a good job role in I.T. sector. </p><br><br>
+            <ul>
+                <h2>ACHIEVEMENTS</h2><br>
+                <li>Made Water rocket in Robotech event.</li>
+
+                <li>Vois hackaton</li>
+            </ul>
+        </section>
+
+        <section>
+            <section class="skillsAndProjects">
+                <div class="skills" id="skills">
+                    <h1 class="cardHeading">Technical Skills</h1>
+                    <br><br>
+                    <img title="HTML" src="./images/html.svg">
+                    <img title="CSS " src="./images/css.svg ">
+                    <img title=" Javascript" src=" ./images/js.svg">
+                    <img title=" Node.JS" src=" ./images/node.svg">
+                    <img title="React " src=" ./images/react.svg">
+                </div>
+                <div class="projects" id="projects">
+                    <h1 class="cardHeading">Projects</h1>
+                    <div class="projectContainer">
+                        <img src="./images/css.svg">
+                        <div class="projectDescription">
+                            <h4>Project 1</h4>
+                            <p>Library management using C++
+                            </p>
+                        </div>
+                    </div>
+                    <div class='projectContainer'>
+                        <img src='./images/css.svg' />
+                        <div class="projectDescription">
+                            <h4>Project 2</h4>
+                            <p>Medical website on diabetes prediction.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="contactform" id="contactform">
+            <h1>Let's Connect!</h1>
+            <div class="formgroup">
+                <lable for="name">Enter Full Name</lable></br>
+                <input type="text" id="name" placeholder="Full Name" />
+            </div>
+            <div class="formgroup">
+                <lable for="email">Email</lable></br>
+                <input type="text" id="email" placeholder="Email" />
+            </div>
+            <div class="formgroup">
+                <lable for="messages">Messages</lable></br>
+                <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+            </div>
+       <a href="https://www.linkedin.com/in/khushi-sharma-64a22a211"><button class="submitButton" onclick={submit()} action="post">Connect</button></a> 
+        </section>
+    </main><br>
+    <h6>ALL RIGHTS RESERVED |KHUSHI SHARMA</h6>
+    <script src="script.js"></script>
+</body>
+
+</html>
